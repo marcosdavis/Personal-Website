@@ -1,0 +1,16 @@
+body {
+    background-color: mediumseagreen;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: darkgreen;
+}
+
+.bar {
+    display: flex;
+}
