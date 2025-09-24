@@ -1,16 +1,27 @@
 body {
     background-color: mediumseagreen;
+    margin-top: 90px;
 }
 
 #nav-bar {
     display: flex;
+    position: fixed;
     justify-content: space-evenly;
     left: 0px;
     right: 0px;
     top: 0px;
+    padding: 18px 25px 18px 25px;
     background-color: darkgreen;
 }
 
 .bar {
     display: flex;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.bar:hover{
+    background-color: lime;
+    color: black;
+    border-radius: 5px;
 }
